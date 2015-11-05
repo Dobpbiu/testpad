@@ -1,0 +1,2 @@
+# testpad
+Django QA client
