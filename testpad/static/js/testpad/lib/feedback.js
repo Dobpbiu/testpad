@@ -14,7 +14,7 @@
 			postURL:				true,
 			proxy:					undefined,
 			letterRendering:		false,
-			initButtonText: 		'Send feedback',
+			initButtonText: 		'Send QA feedback',
 			strokeStyle:			'black',
 			shadowColor:			'black',
 			shadowOffsetX:			1,
