@@ -24,7 +24,7 @@ Install testpad::
 
 Then use it in a project by updating your settings file::
 
-    INSTALLED_APPS += (
+     INSTALLED_APPS += (
      'settings_context_processor',
      'testpad',
      )
@@ -32,8 +32,8 @@ Then use it in a project by updating your settings file::
      USE_TESTPAD = True
      TESTPAD_AJAX_URL = 'Insert API where screenshot is posted.'
 
-    # for settings_context_processor
-    TEMPLATE_VISIBLE_SETTINGS = (
+     # for settings_context_processor
+     TEMPLATE_VISIBLE_SETTINGS = (
            'USE_TESTPAD',
            'TESTPAD_AJAX_URL',
     )
