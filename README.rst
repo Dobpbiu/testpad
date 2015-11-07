@@ -8,7 +8,7 @@ testpad
 .. image:: https://travis-ci.org/milin/testpad.png?branch=master
     :target: https://travis-ci.org/milin/testpad
 
-Screenshot and Annotate and send to django backend.
+Screenshot/Annotate and send to backend for processing.
 
 Documentation
 -------------
