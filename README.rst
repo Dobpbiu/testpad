@@ -39,6 +39,7 @@ Then use it in a project by updating your settings file::
     )
     
 Add this block to your base template::
+
     {# JS block for automated QA utility to create bugs in Jira #}
     {# Will be turned off for production #}
     {% if USE_TESTPAD %}
@@ -51,6 +52,7 @@ Add this block to your base template::
             });
         </script>
     {% endif %}
+
 
 
 Features
