@@ -22,7 +22,7 @@ Install testpad::
 
     pip install testpad
 
-Then use it in a project by updating your settings file::
+Then use it in a project by updating your settings file (ideally local and test settings and not production settings.)::
 
      INSTALLED_APPS += (
      'settings_context_processor',
