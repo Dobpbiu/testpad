@@ -52,6 +52,11 @@ Add this block to your base template::
             });
         </script>
     {% endif %}
+    
+
+Lastly::
+
+    python manage.py collectstatic
 
 
 
