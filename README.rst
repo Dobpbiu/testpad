@@ -62,8 +62,9 @@ Lastly::
 
 Features
 --------
-* Captures screenshot based on https://github.com/ivoviz/feedback for django apps.
+* Captures screenshot based on https://github.com/ivoviz/feedback for django apps. 
 * Uses django_settings_context_processor to make settings constant available in your base templates.
+* **Demo**: http://ivoviz.github.io/feedback/
 
 TestPad client that includes all the javascript magic to make screenshotting and annotations happen.
 
