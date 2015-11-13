@@ -43,6 +43,8 @@ Add this block to your base template::
     {# JS block for automated QA utility to create bugs in Jira #}
     {# Will be turned off for production #}
     {% if USE_TESTPAD %}
+        {# This is optional. Remove if you already have jquery enabled. #}
+        <script src="http://code.jquery.com/jquery-latest.min.js"></script>  
         <script src="{{ STATIC_URL }}js/testpad/lib/feedback.js"></script>
         <link rel="stylesheet" href="{{ STATIC_URL }}css/testpad/lib/feedback.min.css" />
         <script type="text/javascript">
