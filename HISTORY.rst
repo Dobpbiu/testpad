@@ -7,3 +7,8 @@ History
 ++++++++++++++++++
 
 * First release on PyPI.
+
+0.1.5 (2015-11-02)
+++++++++++++++++++
+
+* Updates to directory structure for static files so that css and js files go in proper directories.
